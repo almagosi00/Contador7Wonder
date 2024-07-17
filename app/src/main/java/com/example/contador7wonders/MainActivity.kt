@@ -16,7 +16,8 @@ import com.example.contador7wonders.ui.theme.Contador7WondersTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        //enableEdgeToEdge()
+        /*
         setContent {
             Contador7WondersTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
@@ -27,6 +28,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+         */
     }
 }
 
