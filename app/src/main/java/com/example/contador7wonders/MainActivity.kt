@@ -1,6 +1,7 @@
 package com.example.contador7wonders
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -29,6 +30,22 @@ class MainActivity : ComponentActivity() {
             }
         }
          */
+        setContentView(R.layout.activity_main)
+    }
+    fun onClickCartaAzul(view: android.view.View){
+        Log.d("MainActivity","Azul")
+    }
+
+    fun onClickCartaVerde(view: android.view.View){
+        Log.d("MainActivity","Verde")
+    }
+
+    fun onClickCartaAmarillo(view: android.view.View){
+        Log.d("MainActivity","Amarillo")
+    }
+
+    fun onClickCartaMorado(view: android.view.View){
+        Log.d("MainActivity","Morado")
     }
 }
 
@@ -47,3 +64,4 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+

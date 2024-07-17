@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="174dp"
-        android:layout_height="86dp"
-        android:src="@drawable/azul" />
+        android:id="@+id/imageButtonCartaAzul"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:src="@drawable/azul"
+        android:onClick="onClickCartaAzul"/>
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="172dp"
-        android:layout_height="102dp"
-        android:src="@drawable/amarillo" />
+        android:id="@+id/imageButtonCartaAmarilla"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:src="@drawable/amarillo"
+        android:onClick="onClickCartaAmarillo"/>
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="170dp"
-        android:layout_height="105dp"
-        android:src="@drawable/morado" />
+        android:id="@+id/imageButtonCartaMorada"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:src="@drawable/morado"
+        android:onClick="onClickCartaMorado"/>
 
     <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="172dp"
-        android:layout_height="105dp"
-        android:src="@drawable/verde" />
+        android:id="@+id/imageButtonCartaVerde"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:src="@drawable/verde"
+        android:onClick="onClickCartaVerde"/>
 </LinearLayout>
